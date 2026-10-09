@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
+  <title id="title">Cấu trúc Workspace Webflow</title>
+  <desc id="desc">Workspace quản lý các website, thành viên và hoạt động cộng tác.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f5f8fc; }
+      .workspace { fill: #102a43; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .line { stroke: #718096; stroke-width: 3; fill: none; }
+      .title { font: 700 22px Arial, sans-serif; fill: #ffffff; }
+      .subtitle { font: 14px Arial, sans-serif; fill: #d9e2ec; }
+      .card-title { font: 700 19px Arial, sans-serif; fill: #102a43; }
+      .text { font: 15px Arial, sans-serif; fill: #486581; }
+      .accent { fill: #146ef5; }
+    </style>
+  </defs>
+  <rect class="bg" width="900" height="390" rx="18"/>
+  <rect class="workspace" x="300" y="28" width="300" height="92" rx="14"/>
+  <text class="title" x="450" y="66" text-anchor="middle">Workspace</text>
+  <text class="subtitle" x="450" y="91" text-anchor="middle">Không gian làm việc và cộng tác</text>
+  <path class="line" d="M450 120v42M155 162h590M155 162v38M450 162v38M745 162v38"/>
+  <rect class="card" x="40" y="200" width="230" height="145" rx="12"/>
+  <rect class="accent" x="40" y="200" width="230" height="8" rx="4"/>
+  <text class="card-title" x="155" y="246" text-anchor="middle">Các Site</text>
+  <text class="text" x="155" y="276" text-anchor="middle">Website được tạo và quản lý</text>
+  <text class="text" x="155" y="300" text-anchor="middle">trong Workspace</text>
+  <rect class="card" x="335" y="200" width="230" height="145" rx="12"/>
+  <rect class="accent" x="335" y="200" width="230" height="8" rx="4"/>
+  <text class="card-title" x="450" y="246" text-anchor="middle">Thành viên</text>
+  <text class="text" x="450" y="276" text-anchor="middle">Cộng tác và phân quyền</text>
+  <text class="text" x="450" y="300" text-anchor="middle">theo quyền truy cập</text>
+  <rect class="card" x="630" y="200" width="230" height="145" rx="12"/>
+  <rect class="accent" x="630" y="200" width="230" height="8" rx="4"/>
+  <text class="card-title" x="745" y="246" text-anchor="middle">Hoạt động</text>
+  <text class="text" x="745" y="276" text-anchor="middle">Quản lý công việc và</text>
+  <text class="text" x="745" y="300" text-anchor="middle">cài đặt chung</text>
+</svg>

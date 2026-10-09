@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Quy trình triển khai website Webflow</title>
+  <desc id="desc">Bốn giai đoạn: chuẩn bị, dựng site, hoàn thiện và kiểm tra xuất bản.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f5f8fc; }
+      .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
+      .step { fill: #146ef5; }
+      .title { font: 700 19px Arial, sans-serif; fill: #102a43; }
+      .text { font: 15px Arial, sans-serif; fill: #486581; }
+      .number { font: 700 17px Arial, sans-serif; fill: #ffffff; }
+      .arrow { stroke: #718096; stroke-width: 3; fill: none; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#718096"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1000" height="260" rx="18"/>
+  <rect class="card" x="25" y="57" width="205" height="145" rx="12"/>
+  <circle class="step" cx="56" cy="89" r="18"/>
+  <text class="number" x="56" y="95" text-anchor="middle">1</text>
+  <text class="title" x="48" y="132">Chuẩn bị</text>
+  <text class="text" x="48" y="160">Yêu cầu, nội dung,</text>
+  <text class="text" x="48" y="182">tài nguyên, quyền</text>
+  <path class="arrow" d="M238 130h25" marker-end="url(#arrowhead)"/>
+  <rect class="card" x="270" y="57" width="205" height="145" rx="12"/>
+  <circle class="step" cx="301" cy="89" r="18"/>
+  <text class="number" x="301" y="95" text-anchor="middle">2</text>
+  <text class="title" x="293" y="132">Dựng site</text>
+  <text class="text" x="293" y="160">Cấu trúc, giao diện,</text>
+  <text class="text" x="293" y="182">responsive, CMS</text>
+  <path class="arrow" d="M483 130h25" marker-end="url(#arrowhead)"/>
+  <rect class="card" x="515" y="57" width="205" height="145" rx="12"/>
+  <circle class="step" cx="546" cy="89" r="18"/>
+  <text class="number" x="546" y="95" text-anchor="middle">3</text>
+  <text class="title" x="538" y="132">Hoàn thiện</text>
+  <text class="text" x="538" y="160">Chức năng, SEO,</text>
+  <text class="text" x="538" y="182">khả năng truy cập</text>
+  <path class="arrow" d="M728 130h25" marker-end="url(#arrowhead)"/>
+  <rect class="card" x="760" y="57" width="215" height="145" rx="12"/>
+  <circle class="step" cx="791" cy="89" r="18"/>
+  <text class="number" x="791" y="95" text-anchor="middle">4</text>
+  <text class="title" x="783" y="132">Kiểm tra &amp; xuất bản</text>
+  <text class="text" x="783" y="160">Preview, Publish,</text>
+  <text class="text" x="783" y="182">kiểm tra domain</text>
+</svg>

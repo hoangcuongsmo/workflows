@@ -26,13 +26,13 @@ Tính năng CMS, xuất bản và tên miền có thể phụ thuộc vào gói 
 
 ![Sơ đồ minh họa Workspace quản lý các site, thành viên và hoạt động cộng tác](images/webflow-workspace.svg)
 
-*Sơ đồ khái quát: một Workspace có thể quản lý nhiều site cùng thành viên và hoạt động cộng tác.*
+_Sơ đồ khái quát: một Workspace có thể quản lý nhiều site cùng thành viên và hoạt động cộng tác._
 
 ## 3. Quy trình triển khai website cơ bản
 
 ![Sơ đồ quy trình triển khai website bằng Webflow từ chuẩn bị đến xuất bản](images/webflow-process.svg)
 
-*Quy trình tổng quát; các bước chi tiết được trình bày bên dưới.*
+_Quy trình tổng quát; các bước chi tiết được trình bày bên dưới._
 
 ### Bước 1: Xác định yêu cầu và chuẩn bị nội dung
 
@@ -117,17 +117,21 @@ Thực hiện Preview trước, sau đó Publish lên domain staging hoặc cust
 
 ## 5. Xử lý sự cố thường gặp
 
-| Hiện tượng                             | Việc cần kiểm tra                                                      |
-| ----------------------------------------- | ------------------------------------------------------------------------- |
-| Style thay đổi trên nhiều element     | Kiểm tra class dùng chung, selector và style kế thừa                 |
-| Nội dung tràn trên mobile              | Kiểm tra width/min-width, padding, ảnh và bố cục Flexbox/Grid        |
-| Danh sách CMS trống                     | Kiểm tra Collection, trạng thái publish, filter và dữ liệu bản ghi |
-| Trang CMS thiếu nội dung                | Kiểm tra kết nối field và dữ liệu của bản ghi                     |
-| Link, nút hoặc form không hoạt động | Kiểm tra URL, action, cấu hình form và trạng thái thành phần      |
+| Hiện tượng                          | Việc cần kiểm tra                                                  |
+| ----------------------------------- | ------------------------------------------------------------------ |
+| Style thay đổi trên nhiều element   | Kiểm tra class dùng chung, selector và style kế thừa               |
+| Nội dung tràn trên mobile           | Kiểm tra width/min-width, padding, ảnh và bố cục Flexbox/Grid      |
+| Danh sách CMS trống                 | Kiểm tra Collection, trạng thái publish, filter và dữ liệu bản ghi |
+| Trang CMS thiếu nội dung            | Kiểm tra kết nối field và dữ liệu của bản ghi                      |
+| Link, nút hoặc form không hoạt động | Kiểm tra URL, action, cấu hình form và trạng thái thành phần       |
 | Thay đổi chưa hiển thị trên website | Publish lại đúng site/domain và kiểm tra cache trình duyệt         |
-| Custom domain chưa truy cập được     | Kiểm tra cấu hình DNS, SSL và thời gian cập nhật DNS               |
+| Custom domain chưa truy cập được    | Kiểm tra cấu hình DNS, SSL và thời gian cập nhật DNS               |
 
-## 6. Tài liệu tham khảo
+## 6. Dự án mẫu
+
+- [Nautic Energy](https://nauticenergy.co.uk/)
+
+## 7. Tài liệu tham khảo
 
 - [Webflow University](https://university.webflow.com/)
 - [Webflow Help Center](https://help.webflow.com/)

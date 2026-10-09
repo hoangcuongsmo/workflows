@@ -1,6 +1,6 @@
 # Tài liệu Webflow
 
-Tài liệu tổng hợp các khái niệm và quy trình cơ bản để triển khai, quản lý và xuất bản website bằng Webflow. Nội dung dành cho người tham gia xây dựng hoặc cập nhật website; không phải giáo trình theo buổi học.
+Tài liệu tổng hợp các khái niệm và quy trình cơ bản để triển khai, quản lý và xuất bản website bằng Webflow. Nội dung dành cho người tham gia xây dựng hoặc cập nhật website;
 
 ## 1. Webflow là gì?
 
